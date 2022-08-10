@@ -1,6 +1,6 @@
 # React Auto Growing Input
 
-A text input for React that resizes itself to the current content.
+A text input component for React which grows with content
 
 ## Installation
 
