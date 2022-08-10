@@ -1,8 +1,8 @@
-import { useRef, useState, forwardRef } from "react";
+import React, { useRef, useState, forwardRef } from "react";
 import './AutoGrowingInput.scss';
 
 const AutoGrowInput = forwardRef((props, ref) => {
-  const { placeholder } = props;
+  const { placeholder, size = 4 } = props;
   const inputRef = useRef();
   const curRef = ref || inputRef;
 
@@ -12,7 +12,7 @@ const AutoGrowInput = forwardRef((props, ref) => {
         type="text"
         ref={curRef}
         onInput={(ev) => curRef.current.parentNode.dataset.value = curRef.current.value}
-        size={(placeholder?.length || 0) + 4}
+        size={(placeholder?.length || 0) + size}
         {...props}
       />
     </div>

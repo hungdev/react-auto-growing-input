@@ -1,6 +1,6 @@
 {
   "name": "react-auto-growing-input",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Auto Growing Input Component for React",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -23,9 +23,13 @@
     "react-component",
     "input",
     "autosize",
+    "auto-size",
     "autogrow",
+    "auto-grow",
     "autofit",
-    "growing"
+    "auto-fit",
+    "growing",
+    "auto-growing"
   ],
   "devDependencies": {
     "@babel/core": "^7.18.10",
