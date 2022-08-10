@@ -2,6 +2,10 @@
 
 A text input component for React which grows with content
 
+## Demo
+
+[https://codesandbox.io/s/react-auto-growing-input-i3hspx](https://codesandbox.io/s/react-auto-growing-input-i3hspx)
+
 ## Installation
 
 ```bash
